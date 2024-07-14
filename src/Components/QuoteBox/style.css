@@ -1,0 +1,13 @@
+.Box{
+    width: 40vw;
+    height: 50vh;
+    background-color: hsl(218, 23%, 16%);
+    border-radius: 10px;
+    font-size: 28px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
