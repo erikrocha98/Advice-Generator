@@ -1,13 +1,17 @@
 .Box{
+    position: fixed; /* Fixa o elemento em relação à viewport */
+    top: 50%; /* Move o topo do elemento para 50% da altura da viewport */
+    left: 50%; /* Move a esquerda do elemento para 50% da largura da viewport */
+    transform: translate(-50%, -50%); /* Ajusta a posição para centralizar o elemento */
     width: 40vw;
     height: 50vh;
     background-color: hsl(218, 23%, 16%);
     border-radius: 10px;
     font-size: 28px;
     color: white;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     text-align: center;
     
 }
