@@ -1,0 +1,7 @@
+.DividerImg{
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%); /* Ajusta a posição para centralizar o elemento */
+
+}
