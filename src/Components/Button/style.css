@@ -7,9 +7,13 @@
     border-radius: 50%;
     padding: 10px;
     cursor:pointer;
-
-    
-    
+    border: none;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Favorece uma transição suave da sombra quando o mouse passa por cima do botão */
+    box-shadow: 0 0 10px rgba(0, 255, 132, 0.5); /* promove maior profundidade ao elemento deixando-o mais estético*/
+}
+.ButtonStyle:hover{
+    box-shadow: 0 0 20px rgba(0, 255, 132, 1) ;
+    transform: scale(1.1);
 }
 .IconStyle{
     display: flex;
